@@ -1,8 +1,6 @@
-var btnTranslate = document.querySelector("#btn-translate");
+var btnTranslate = document.querySelector(".btn-translate");
 var ipTxt = document.querySelector("#ip-txt");
-var outputTxt = document.querySelector("#output");
-
-// var serverURL = "https://lessonfourspi.tanaypratap.repl.co/translate/yoda.json";
+var outputTxt = document.querySelector(".output");
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
@@ -13,7 +11,7 @@ function getTranslationURL(input) {
 //Error handling
 function errorHandler(error) {
     console.log("error occured", error);
-    alert("Something went wrong, try again after sometime..");
+    alert("Something went wrong, please try again after sometime..");
 }
 
 function clickHandler() {
