@@ -1,12 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Montserrat&family=Ubuntu&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Neuton:wght@400;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-    /* font-family: 'Amaranth', sans-serif; */
-    /* font-family: 'Cormorant', serif; */
-    /* font-family: 'Neuton', serif; */
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
